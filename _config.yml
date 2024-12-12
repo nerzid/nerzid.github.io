@@ -49,9 +49,6 @@ additional_links:
 about_profile_image: images/profil.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I am a doctoral student at Umea University working on <mark>dialogue systems</mark> that utilize <mark>social context</mark> such as social norms, conventions, and practices.
-
-  #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)

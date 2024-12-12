@@ -46,7 +46,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpeg
+about_profile_image: images/profil.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I am a doctoral student at Umea University working on <mark>dialogue systems</mark> that utilize <mark>social context</mark> such as social norms, conventions, and practices.
 

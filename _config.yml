@@ -45,33 +45,70 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Who is Eren?
 about_profile_image: images/profil.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  I am a doctoral student at Umea University working on <mark>dialogue systems</mark> that utilize <mark>social context</mark> such as social norms, conventions, and practices to handle natural dialogues more accurately.
+  A computer scientist, researcher, and doctoral student who is working on dialogue systems that utilize social context to handle natural dialogues accurately.
+  
+  Eren's work focuses on incorporating social norms, conventions, cultures, and practices into dialogue systems. He emphasizes transparency and control in decision-making processes for these systems.
 content:
-  - title: Who is Eren?
-    layout: list
-    content:
-      - layout: left
-        title: Eren Yildiz
-        sub_title: Computer Scientist, Researcher, Doctoral Student
-        quote: |
-          A computer scientist, researcher, and doctoral student who is working on dialogue systems that utilize social context to handle natural dialogues accurately.
-        description: |
-          Eren's work focuses on incorporating social norms, conventions, cultures, and practices into dialogue systems. He emphasizes transparency and control in decision-making processes for these systems.
-
   - title: Expertise
     layout: list
     content:
       - layout: left
-        title: Languages
-        description: |
-          Python, C#, Java
-      - layout: left
         title: Technologies
         description: |
           Chatbots, Dialogue systems, LLMs, Ollama, Langchain, RAG, Vector databases (e.g., ChromaDB), Relation databases (MySQL, MSSQL, SQLite), NoSQL databases (MongoDB), RASA, Dialogflow, PyTorch, Keras, Scikit Learn, Numpy, Django, Flask, Docker, Linux
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Budgie
+        sub_title: PhD Project
+        link: https://github.com/nerzid/budgie
+        description: |
+          A socially aware interaction management system that can utilize social context to create scenarios for dialogue and multi-agent systems.
+          Users can create scenarios based on the Social Practice Theory.
+      - layout: left
+        title: RealActions Extractor
+        sub_title: Project
+        description: |
+          An API for extracting RealActions using **Langchain** for writing prompts systematically, **ChromaDB** for storing the vectorized scenarios, and **Ollama** for serving a local LLM model (i.e., Llama 3.1 8b).
+          RealActions are actions such as talking, swimming, requesting information, sharing an object, etc., extracted from utterances. Unlike *intent labels*, they represent what the utterance is trying to convey rather than predicting the interlocutor's intention.
+          A publication for RealActions is in progress, and the project will be published on GitHub after submission to a relevant venue.
+      - layout: left
+        title: Budgie Web
+        sub_title: Project
+        link: https://github.com/nerzid/budgie-web
+        description: |
+          A web interface for Budgie that allows for testing scenarios. Users can create and send custom actions to communicate, change roles, and monitor state updates.
+      - layout: left
+        title: Budgie Socket Server
+        sub_title: Project
+        link: https://github.com/nerzid/budgie-socket-server
+        description: |
+          A socket server for Budgie to send asynchronous data.
+      - layout: left
+        title: Pepper ChatGPT
+        sub_title: Project
+        link: https://github.com/nerzid/pepper-chatgpt
+        description: |
+          A GUI for connecting to a Pepper robot, sending messages to the ChatGPT API, and commanding Pepper to read the returned responses.
+      - layout: left
+        title: Autocomment
+        sub_title: MSc Project
+        link: https://github.com/nerzid/autocomment
+        description: |
+          A framework for generating comments automatically using ASTs (Abstract Syntax Trees) and Callgraphs.
+      - layout: left
+        title: Chess Game
+        sub_title: BSc Project
+        link: https://www.youtube.com/watch?v=z02yKOfGgwk
+        description: |
+          An online chess game made in Unity3D that allows players to switch seamlessly between 3D and 2D views with a click of a button.
+          It featured a custom game mode called Rage Mode, where players were required to capture at least one enemy chess piece every five turns to avoid losing.
+          All 3D models were created in Blender.
+
 
   - title: Education
     layout: list
@@ -81,20 +118,22 @@ content:
         sub_title: PhD in Computer Science
         caption: 2020 - Present
         description: |
-          - Focused on socially aware dialogue systems that use social practices for better interpretation of user input.
-          - Developed Budgie, a system based on Social Practice Theory for dialogue management.
+          - Working on socially aware dialogue systems that can utilize social context to interpret user sentences better
+          - My work is based on the Social Practice Theory. Social practices are defined as routinized activities that are mediated between participating actors. For example, doctor visits are social practices because they are a type of *routinized activity* that both participating actors (i.e., the doctor and the patient) has certain expectations towards the interaction. These expectations, together with the actors' roles and competences (e.g., the doctor as a role has the competency of diagnosing the patient) provide the necessary handles for the dialogue system to manage the dialogue in such a way that the whole social context can be utilized
+          - To this end, I built Budgie. You can find it under **Projects** section
+          - I expect to finish my doctoral studies in **this spring**
       - layout: left
         title: FMV Isik University
         sub_title: MSc in Computer Science
         caption: 2015 - 2018
         description: |
-          - Created Autocomment, an automatic comment generator for code.
+          - Developed an automatic comment generator named **Autocomment** that parses code to create javadoc type comments for methods
       - layout: left
         title: FMV Isik University
         sub_title: BSc in Software Engineering
         caption: 2011 - 2015
         description: |
-          - Built an online chess game using Unity3D and Blender.
+          - Developed an online chess game using **Unity3D** and **Blender**
 
   - title: Experience
     layout: list
@@ -104,49 +143,76 @@ content:
         sub_title: Research Engineer
         caption: 2015-07 to 2017-06
         description: |
-          - Worked on repository recommendation systems, developer profiling, and Q&A systems.
-          - Improved search ranking results using advanced algorithms and embeddings.
+          - GitHub repository popularity forecasting
+          - Maturity calculation and estimation for repositories and developers
+          - Topic-tag classification for repositories
+          - User matching by matching developers on Twitter, Klout, Stackoverflow using GitHub profile info
+          - Repository and developer recommendation system
+          - Question and Answering System for product manuals where I used word embeddings to build a system that can rank documents based on the search criteria
+          - Set up a state-of-the-art cloud backend system for our searchservice using popular tools such as Kubernetes and Docker
+          - Improved the ranking results using ranking algorithms, click graphs, and word embeddings
       - layout: left
         title: FMV Isik University
         sub_title: Teaching Assistant
         caption: 2003-06 to 2003-08
         description: |
-          - Taught courses like Java Programming, Software Engineering, and Database Systems.
-
-  - title: Projects
-    layout: list
-    content:
-      - layout: left
-        title: Budgie
-        sub_title: PhD Project
-        link: https://github.com/nerzid/budgie
-        description: |
-          A socially aware interaction management system based on Social Practice Theory.
-      - layout: left
-        title: RealActions Extractor
-        description: |
-          API for extracting RealActions using Langchain and ChromaDB, with local LLM support via Ollama.
-      - layout: left
-        title: Autocomment
-        sub_title: MSc Project
-        link: https://github.com/nerzid/autocomment
-        description: |
-          A framework for generating automatic code comments using ASTs and call graphs.
+          - 'I taught the following courses: Introduction to Java Programming, Object-Oriented Programming, Computer Organization, Software Engineering and Practice, Internet and Web Programming, Principles of Programming Languages, Database Systems, Human-Computer Interaction, and Advanced Java Programming'
 
   - title: Publications
     layout: list
     content:
       - layout: left
+        title: Socially Aware Interaction System for Natural Dialogue Management (PhD Thesis, In Progress)
+        description: |
+          Authored by Eren Yildiz.
+      - layout: left
+        title: Budgie: A socially aware dialogue system that facilitates utilization of social context (In progress)
+        description: |
+          Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
+      - layout: left
+        title: A Socially Aware Dialogue Model Utilizing Social Context (In progress)
+        description: |
+          Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
+      - layout: left
+        title: RealActions: A Novel Representation of Actions for Interaction Systems (In progress)
+        description: |
+          Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
+      - layout: left
+        title: From Trees to Sessions: Breaking the limitations of rule-based dialogue systems with sessions (In progress)
+        description: |
+          Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
+      - layout: left
+        title: Socially Aware Interaction System for Managing Medical Dialogues (In progress)
+        description: |
+          Authored by Eren Yildiz, Frank Dignum, and Fatima Pedrosa-Domellöf.
+      - layout: left
+        title: Social Knowledge Grounding for Human-Robot Interaction (In progress)
+        description: |
+          Authored by Eren Yildiz, Thomas Hellström, and Suna Bensch.
+      - layout: left
         title: Incorporating Social Practices in Dialogue Systems
         link: https://link.springer.com/chapter/10.1007/978-3-030-94890-0_7
         description: |
-          Published in the International Workshop on Chatbot Research and Design (2021).
+          Published in the International Workshop on Chatbot Research and Design (2021). 
+          Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
       - layout: left
-        title: Creating Important Statement Type Comments in Autocomment
+        title: Creating Important Statement Type Comments in Autocomment: Automatic Comment Generation Framework
         link: https://ieeexplore.ieee.org/abstract/document/8566660
         description: |
-          Published in the 2018 3rd International Conference on Computer Science and Engineering (UBMK).
-
+          Published in the 2018 3rd International Conference on Computer Science and Engineering (UBMK). 
+          Authored by Eren Yildiz and Emine Ekin.
+      - layout: left
+        title: Automatic comment generation using only source code
+        link: https://ieeexplore.ieee.org/abstract/document/7960702
+        description: |
+          Published in the 2017 25th Signal Processing and Communications Applications Conference (SIU). 
+          Authored by Eren Yildiz and Emine Ekin.
+      - layout: left
+        title: Automatic comment generation using the source code
+        link: https://acikbilim.yok.gov.tr/handle/20.500.12812/93808
+        description: |
+          Published in Fen Bilimleri Enstitüsü (2017). 
+          Authored by Eren Yildiz and Emine Ekin.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)

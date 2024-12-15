@@ -164,11 +164,11 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: right
+      - layout: middle
         title: Socially Aware Interaction System for Natural Dialogue Management (PhD Thesis, In Progress)
         description: |
           Authored by Eren Yildiz.
-      - layout: top-right
+      - layout: middle
         title: 'Budgie: A socially aware dialogue system that facilitates utilization of social context (In progress)'
         description: |
           Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
@@ -176,41 +176,41 @@ content:
         title: A Socially Aware Dialogue Model Utilizing Social Context (In progress)
         description: |
           Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
-      - layout: left
+      - layout: middle
         title: 'RealActions: A Novel Representation of Actions for Interaction Systems (In progress)'
         description: |
           Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
-      - layout: left
+      - layout: middle
         title: 'From Trees to Sessions: Breaking the limitations of rule-based dialogue systems with sessions (In progress)'
         description: |
           Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
-      - layout: left
+      - layout: middle
         title: Socially Aware Interaction System for Managing Medical Dialogues (In progress)
         description: |
           Authored by Eren Yildiz, Frank Dignum, and Fatima Pedrosa-Domellöf.
-      - layout: left
+      - layout: middle
         title: Social Knowledge Grounding for Human-Robot Interaction (In progress)
         description: |
           Authored by Eren Yildiz, Thomas Hellström, and Suna Bensch.
-      - layout: left
+      - layout: middle
         title: Incorporating Social Practices in Dialogue Systems
         link: https://link.springer.com/chapter/10.1007/978-3-030-94890-0_7
         description: |
           Published in the International Workshop on Chatbot Research and Design (2021). 
           Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
-      - layout: left
+      - layout: middle
         title: 'Creating Important Statement Type Comments in Autocomment: Automatic Comment Generation Framework'
         link: https://ieeexplore.ieee.org/abstract/document/8566660
         description: |
           Published in the 2018 3rd International Conference on Computer Science and Engineering (UBMK). 
           Authored by Eren Yildiz and Emine Ekin.
-      - layout: left
+      - layout: middle
         title: Automatic comment generation using only source code
         link: https://ieeexplore.ieee.org/abstract/document/7960702
         description: |
           Published in the 2017 25th Signal Processing and Communications Applications Conference (SIU). 
           Authored by Eren Yildiz and Emine Ekin.
-      - layout: left
+      - layout: middle
         title: Automatic comment generation using the source code
         link: https://acikbilim.yok.gov.tr/handle/20.500.12812/93808
         description: |

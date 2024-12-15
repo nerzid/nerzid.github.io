@@ -48,66 +48,104 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profil.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  I am a doctoral student at Umea University working on <mark>dialogue systems</mark> that utilize <mark>social context</mark> such as social norms, conventions, and practices.
+  I am a doctoral student at Umea University working on <mark>dialogue systems</mark> that utilize <mark>social context</mark> such as social norms, conventions, and practices to handle natural dialogues more accurately.
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Who is Eren?
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: Eren Yildiz
+        sub_title: Computer Scientist, Researcher, Doctoral Student
+        quote: |
+          A computer scientist, researcher, and doctoral student who is working on dialogue systems that utilize social context to handle natural dialogues accurately.
+        description: |
+          Eren's work focuses on incorporating social norms, conventions, cultures, and practices into dialogue systems. He emphasizes transparency and control in decision-making processes for these systems.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Expertise
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Languages
+        description: |
+          Python, C#, Java
+      - layout: left
+        title: Technologies
+        description: |
+          Chatbots, Dialogue systems, LLMs, Ollama, Langchain, RAG, Vector databases (e.g., ChromaDB), Relation databases (MySQL, MSSQL, SQLite), NoSQL databases (MongoDB), RASA, Dialogflow, PyTorch, Keras, Scikit Learn, Numpy, Django, Flask, Docker, Linux
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Umeå University
+        sub_title: PhD in Computer Science
+        caption: 2020 - Present
+        description: |
+          - Focused on socially aware dialogue systems that use social practices for better interpretation of user input.
+          - Developed Budgie, a system based on Social Practice Theory for dialogue management.
+      - layout: left
+        title: FMV Isik University
+        sub_title: MSc in Computer Science
+        caption: 2015 - 2018
+        description: |
+          - Created Autocomment, an automatic comment generator for code.
+      - layout: left
+        title: FMV Isik University
+        sub_title: BSc in Software Engineering
+        caption: 2011 - 2015
+        description: |
+          - Built an online chess game using Unity3D and Blender.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Huawei
+        sub_title: Research Engineer
+        caption: 2015-07 to 2017-06
+        description: |
+          - Worked on repository recommendation systems, developer profiling, and Q&A systems.
+          - Improved search ranking results using advanced algorithms and embeddings.
+      - layout: left
+        title: FMV Isik University
+        sub_title: Teaching Assistant
+        caption: 2003-06 to 2003-08
+        description: |
+          - Taught courses like Java Programming, Software Engineering, and Database Systems.
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Budgie
+        sub_title: PhD Project
+        link: https://github.com/nerzid/budgie
+        description: |
+          A socially aware interaction management system based on Social Practice Theory.
+      - layout: left
+        title: RealActions Extractor
+        description: |
+          API for extracting RealActions using Langchain and ChromaDB, with local LLM support via Ollama.
+      - layout: left
+        title: Autocomment
+        sub_title: MSc Project
+        link: https://github.com/nerzid/autocomment
+        description: |
+          A framework for generating automatic code comments using ASTs and call graphs.
+
+  - title: Publications
+    layout: list
+    content:
+      - layout: left
+        title: Incorporating Social Practices in Dialogue Systems
+        link: https://link.springer.com/chapter/10.1007/978-3-030-94890-0_7
+        description: |
+          Published in the International Workshop on Chatbot Research and Design (2021).
+      - layout: left
+        title: Creating Important Statement Type Comments in Autocomment
+        link: https://ieeexplore.ieee.org/abstract/document/8566660
+        description: |
+          Published in the 2018 3rd International Conference on Computer Science and Engineering (UBMK).
 
 # Footer
 footer_show_references: true

@@ -30,10 +30,10 @@ linkedin_username: eren-yildiz-aa7254bb
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,9 +48,9 @@ additional_links:
 about_title: Who is Eren?
 about_profile_image: images/profil.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  A computer scientist, researcher, and doctoral student who is working on dialogue systems that utilize social context to handle natural dialogues accurately.
+  A computer scientist, researcher, and doctoral student who is working on **dialogue systems** that can utilize **social context** to handle natural dialogues accurately.
   
-  Eren's work focuses on incorporating social norms, conventions, cultures, and practices into dialogue systems. He emphasizes transparency and control in decision-making processes for these systems.
+  Eren's work focuses on incorporating social norms, conventions, cultures, and practices into dialogue systems. He emphasizes **transparency** and **control** in decision-making processes for these systems.
 content:
   - title: Expertise
     layout: list
@@ -58,7 +58,7 @@ content:
       - layout: left
         title: Technologies
         description: |
-          Chatbots, Dialogue systems, LLMs, Ollama, Langchain, RAG, Vector databases (e.g., ChromaDB), Relation databases (MySQL, MSSQL, SQLite), NoSQL databases (MongoDB), RASA, Dialogflow, PyTorch, Keras, Scikit Learn, Numpy, Django, Flask, Docker, Linux
+          Chatbots, Dialogue systems, LLMs, Ollama, Langchain, RAG, Vector databases (e.g., ChromaDB), Relational databases (MySQL, MSSQL, SQLite), NoSQL databases (MongoDB), RASA, Dialogflow, PyTorch, Keras, Scikit Learn, Numpy, Django, Flask, Docker, Linux
 
   - title: Projects
     layout: list
@@ -70,6 +70,9 @@ content:
         description: |
           A socially aware interaction management system that can utilize social context to create scenarios for dialogue and multi-agent systems.
           Users can create scenarios based on the Social Practice Theory.
+          The benefit of basing the dialogue system on social practices is that it allows the dialogue system to interpret user actions (i.e., RealActions, see below) instead of intent labels and plan/predict next move based on the extracted actions and the context.
+          For example, imagine a scenario where you, as a patient, visit a doctor. This is considered as a social practice since both parties (i.e., the doctor and the patient) have had this sort of interaction before (i.e., the doctor's visit), and therefore they both have certain expectations toward each other and the interaction itself. By building scenarios based on these expectations and the context from the social practice, the dialogue system gain the capability of handling dialogue when unexpected events occur. This is because social practice provide the necessary handles for the dialogue system to utilize.
+          A simple example would be that a patient may worry (i.e, an action) and the doctor can calm the patient down (i.e., a competence of being a doctor and an action) since the doctor role is comes with the expectation that the actor who is doctor has the competence of calming down a patient. To calm down the patient, the doctor can use the avaiable options in his toolset to solve the worrying patient problem.
       - layout: left
         title: RealActions Extractor
         sub_title: Project

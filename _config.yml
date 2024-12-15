@@ -22,7 +22,7 @@ github_username:  nerzid
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: eren-yildiz-aa7254bb
+linkedin_username: nerzid
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -79,7 +79,7 @@ content:
         description: |
           An API for extracting RealActions using **Langchain** for writing prompts systematically, **ChromaDB** for storing the vectorized scenarios, and **Ollama** for serving a local LLM model (i.e., Llama 3.1 8b).
           RealActions are actions such as talking, swimming, requesting information, sharing an object, etc., extracted from utterances. Unlike *intent labels*, they represent what the utterance is trying to convey rather than predicting the interlocutor's intention.
-          A publication for RealActions is in progress, and the project will be published on GitHub after submission to a relevant venue.
+          A publication for RealActions is in progress, and the project will be published on GitHub after the publication is submitted to a relevant venue.
       - layout: left
         title: Budgie Web
         sub_title: Project
@@ -164,15 +164,15 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: left
+      - layout: right
         title: Socially Aware Interaction System for Natural Dialogue Management (PhD Thesis, In Progress)
         description: |
           Authored by Eren Yildiz.
-      - layout: left
+      - layout: top-right
         title: 'Budgie: A socially aware dialogue system that facilitates utilization of social context (In progress)'
         description: |
           Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.
-      - layout: left
+      - layout: middle
         title: A Socially Aware Dialogue Model Utilizing Social Context (In progress)
         description: |
           Authored by Eren Yildiz, Suna Bensch, and Frank Dignum.

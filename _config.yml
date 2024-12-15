@@ -59,55 +59,7 @@ content:
         title: Technologies
         description: |
           Chatbots, Dialogue systems, LLMs, Ollama, Langchain, RAG, Vector databases (e.g., ChromaDB), Relation databases (MySQL, MSSQL, SQLite), NoSQL databases (MongoDB), RASA, Dialogflow, PyTorch, Keras, Scikit Learn, Numpy, Django, Flask, Docker, Linux
-  - title: Projects
-    layout: list
-    content:
-      - layout: left
-        title: Budgie
-        sub_title: PhD Project
-        link: https://github.com/nerzid/budgie
-        description: |
-          A socially aware interaction management system that can utilize social context to create scenarios for dialogue and multi-agent systems.
-          Users can create scenarios based on the Social Practice Theory.
-      - layout: left
-        title: RealActions Extractor
-        sub_title: Project
-        description: |
-          An API for extracting RealActions using **Langchain** for writing prompts systematically, **ChromaDB** for storing the vectorized scenarios, and **Ollama** for serving a local LLM model (i.e., Llama 3.1 8b).
-          RealActions are actions such as talking, swimming, requesting information, sharing an object, etc., extracted from utterances. Unlike *intent labels*, they represent what the utterance is trying to convey rather than predicting the interlocutor's intention.
-          A publication for RealActions is in progress, and the project will be published on GitHub after submission to a relevant venue.
-      - layout: left
-        title: Budgie Web
-        sub_title: Project
-        link: https://github.com/nerzid/budgie-web
-        description: |
-          A web interface for Budgie that allows for testing scenarios. Users can create and send custom actions to communicate, change roles, and monitor state updates.
-      - layout: left
-        title: Budgie Socket Server
-        sub_title: Project
-        link: https://github.com/nerzid/budgie-socket-server
-        description: |
-          A socket server for Budgie to send asynchronous data.
-      - layout: left
-        title: Pepper ChatGPT
-        sub_title: Project
-        link: https://github.com/nerzid/pepper-chatgpt
-        description: |
-          A GUI for connecting to a Pepper robot, sending messages to the ChatGPT API, and commanding Pepper to read the returned responses.
-      - layout: left
-        title: Autocomment
-        sub_title: MSc Project
-        link: https://github.com/nerzid/autocomment
-        description: |
-          A framework for generating comments automatically using ASTs (Abstract Syntax Trees) and Callgraphs.
-      - layout: left
-        title: Chess Game
-        sub_title: BSc Project
-        link: https://www.youtube.com/watch?v=z02yKOfGgwk
-        description: |
-          An online chess game made in Unity3D that allows players to switch seamlessly between 3D and 2D views with a click of a button.
-          It featured a custom game mode called Rage Mode, where players were required to capture at least one enemy chess piece every five turns to avoid losing.
-          All 3D models were created in Blender.
+
 
 
   - title: Education
